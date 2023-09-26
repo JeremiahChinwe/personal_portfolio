@@ -67,7 +67,6 @@ const Header = () => {
                             <Link to="contact" smooth={true} duration={500} className="font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-none outline-none hover:scale-[1.05] ">Contact</Link>
                         </li>
                     </ul>
-~
 
                     {/* -------- Darken background when Menu is Open-------- */}
                     <div className={`${open ? "fixed w-full h-full bg-[#00000080] left-0 top-0 transition-all duration-200 delay-75" : ""}`}></div>
