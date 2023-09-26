@@ -18,10 +18,7 @@ export const projects = [
         links: [
             {
                 id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/blockwallet"
-            },
-            {
-                id: "2", 
+                repo_link: "https://github.com/yesjeremiahchinwe/blockwallet",
                 live_link: "https://blockwallet-puce.vercel.app/"
             }
         ]
@@ -39,12 +36,10 @@ export const projects = [
         ],
         links: [
             {
-                id: "1", repo_link: "https://github.com/yesjeremiahchinwe/techtime_landing_page"
-            },
-            {
-                id: "2",
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/techtime_landing_page",
                 live_link: "https://techtime-landing-page-neon.vercel.app/"
-            }
+            },
         ]
     },
     {
@@ -63,12 +58,9 @@ export const projects = [
         links: [
             {
                 id: "1",
-                repo_link: "https://github.com/Fichub-app/Fichat-site"
-            },
-            {
-                id: "2",
+                repo_link: "https://github.com/Fichub-app/Fichat-site",
                 live_link: "https://fichat.vercel.app/"
-            }
+            },
         ]
     },
     {
@@ -86,12 +78,9 @@ export const projects = [
         links: [
             {
                 id: "1",
-                repo_link: "https://github.com/JeremiahChinwe/hng_stage_two"
-            },
-            {
-                id: "2",
+                repo_link: "https://github.com/JeremiahChinwe/hng_stage_two",
                 live_link: "https://hng-stage-two-virid.vercel.app/"
-            }
+            },
         ]
     }
 ]
