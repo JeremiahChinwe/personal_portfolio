@@ -46,7 +46,7 @@ export const projects = [
         id: "3",
         image: fichat,
         title: "FiChat App",
-        description: "Fichat is a chat app built during one of my internship programs at Fichub Internship. It was built by a team of both frontend and backend devs. I led the frontend team of three (3) to create visually appealing user interfaces, while working closely with the backend team to implement and consume the api endpoints. Please note that this project is still under development.",
+        description: "Fichat is a chat app built during one of my internship programs at Fichub Internship. It was built by a team of both frontend and backend devs. I led the frontend team of three (3) to create visually appealing user interfaces, while working closely with the backend team to implement and consume the api endpoints. Please note that this project is still under development and the link to the github repo may not work because it's an organisation(private) repository.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "Tailwindcss" },

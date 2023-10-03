@@ -32,7 +32,7 @@ const Header = () => {
                 <nav>
 
                     {/* -------- Mobile Menu ---------------- */}
-                    <ul className={`min-h-screen fixed top-0 p-8 transition-all duration-300 ease-in flex-col bg-[#dbdbdb] z-10 w-[80%] ${open ? "right-0" : "-right-[100%]"}  list-none text-[16px] md:hidden`} ref={menuRef}>
+                    <ul className={`min-h-screen fixed top-0 p-8 transition-all duration-300 ease-in flex-col bg-white z-10 w-[80%] ${open ? "right-0" : "-right-[100%]"}  list-none text-[16px] md:hidden`} ref={menuRef}>
 
                         <img src={menuClose} alt="menu icon close" className="w-[20px] cursor-pointer block ml-auto mb-8" onClick={() => setOpen(!open)} />
 
