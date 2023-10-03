@@ -13,11 +13,11 @@ export default function Contact() {
     }
 
     return (
-        <div name='contact' className='w-full flex flex-col justify-center items-center p-4'>
+        <div name='contact' className='w-full flex flex-col justify-center items-center py-4'>
             <h1 className="pt-20 font-[600] text-[2.25rem] text-center pb-2 border-b-2 border-[#222222] w-fit block mx-auto">Contact</h1>
 
             <div className="w-full mt-10">
-                <form action='https://getform.io/f/4bec9f0a-cd1c-40d1-aa67-2df21e24ba4e' method='POST' className='grid md:max-w-[50%] md:mx-auto px-[1.25rem]'>
+                <form action='https://getform.io/f/4bec9f0a-cd1c-40d1-aa67-2df21e24ba4e' method='POST' className='grid w-full sm:max-w-[70%] lg:max-w-[50%] mx-auto px-[1rem]'>
 
                     <div className="grid">
                         <label htmlFor="name" className="mb-1">Name</label>
@@ -54,8 +54,6 @@ export default function Contact() {
                     </div>
                 </form>
             </div>
-            {/* const today = new Date() */}
-            {/* <p>Copyright &copy; {today.getFullYear()}</p> */}
         </div>
     )
 }

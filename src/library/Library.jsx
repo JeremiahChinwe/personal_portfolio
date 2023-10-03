@@ -9,7 +9,7 @@ export const projects = [
         id: "1",
         image: blockWallet,
         title: "BlockWallet Website",
-        description: "The official website of the BlockWallet company having three pages, the home, blog, and docs page.",
+        description: "The official website of the BlockWallet company having three pages - the home, blog, swap, and docs page. This project demonstrates my web design skills and strong attention to details.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "CSS" },
@@ -27,7 +27,7 @@ export const projects = [
         id: "2",
         image: techTime,
         title: "TechTime Website",
-        description: "TechTime is a website where you can purchase courses for all kinds of digital skills.",
+        description: "This is the landing page of the TechTime website where you can purchase all digital courses for all kinds of digital skills. It harnesses the power of react in creating reuseable and maintable functional components for scalability.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "Tailwindcss" },
@@ -46,7 +46,7 @@ export const projects = [
         id: "3",
         image: fichat,
         title: "FiChat App",
-        description: "Fichat is a chat app built by a team of fronten and backend devs. I led the frontend team. But it's still under development.",
+        description: "Fichat is a chat app built during one of my internship programs at Fichub Internship. It was built by a team of both frontend and backend devs. I led the frontend team of three (3) to create visually appealing user interfaces, while working closely with the backend team to implement and consume the api endpoints. Please note that this project is still under development.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "Tailwindcss" },
@@ -67,7 +67,7 @@ export const projects = [
         id: "4",
         image: movieBrowser,
         title: "Movie Browser",
-        description: "The project is a movie browser app where you watch any movie of your choice.",
+        description: "A movie browser app that fetches top 10 most rated movies from the TMDB Movie API. This project demonstrates my knowledge in working with external APIs to add amazing functionalities to an application.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "Tailwindcss" },

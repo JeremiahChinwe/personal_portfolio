@@ -23,11 +23,11 @@ const Header = () => {
 
 
     return (
-        <header className="w-full bg-[#dbdbdb] px-4 py-4 xl:p-[1.5rem] sticky top-0 left-0 z-10 min-w-[300px]">
+        <header className="w-full bg-[#fffefe] px-4 py-4 xl:px-[1.5rem] sticky top-0 left-0 z-40 min-w-[300px]">
             <div className="flex items-center justify-between h-[30px] md:h-[50px] lg:w-[90%] mx-auto md:px-4">
-                <Link to="#" className="w-16 md:w-28">
+                <a href="/" className="w-16 md:w-28">
                     <h1 className="font-[600] text-[1.5rem] lg:text-[2.25rem]">Portfolio</h1>
-                </Link>
+                </a>
 
                 <nav>
 
@@ -64,7 +64,7 @@ const Header = () => {
                         <Link to="projects" smooth={true} duration={500}>Projects</Link>
                         </li>
                         <li className="py-4 cursor-pointer">
-                            <Link to="contact" smooth={true} duration={500} className="font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-none outline-none hover:scale-[1.05] ">Contact</Link>
+                            <Link to="contact" smooth={true} duration={500} className="font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-2 border-transparent outline-none hover:bg-transparent hover:text-black hover:border-black ">Contact</Link>
                         </li>
                     </ul>
 
