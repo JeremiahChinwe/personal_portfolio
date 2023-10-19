@@ -12,6 +12,7 @@ export default function About() {
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">HTML</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">CSS</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">Tailwindcss</button>
+            <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">SASS</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">JavaScript</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">React.js</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">Next.js</button>
