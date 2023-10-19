@@ -4,13 +4,14 @@ import { useState } from "react"
 export default function Contact() {
     const [input, setInput] = useState({
         name: "",
-        email: ""
+        email: "",
     })
 
     const handleChange = (e) => {
         const { name, value } = e.target
         setInput({ ...input, [name]: value })
     }
+
 
     return (
         <div name='contact' className='w-full flex flex-col justify-center items-center py-4'>

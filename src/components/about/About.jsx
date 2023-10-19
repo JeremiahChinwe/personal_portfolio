@@ -17,6 +17,7 @@ export default function About() {
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">Next.js</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">TypeScript</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">Redux Toolkit</button>
+            <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">API Intergration</button>
             <button className="border-none bg-[#f5f4f4] text-[#222222] font-[600] py-1 px-4 rounded-lg text-lg cursor-default">Firebase</button>
         </div>
     </section>

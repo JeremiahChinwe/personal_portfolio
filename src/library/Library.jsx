@@ -1,8 +1,7 @@
 import blockWallet from "./assets/block_wallet_updated.png"
 import techTime from "./assets/screenshot_desktop.png"
 import fichat from "./assets/updated-dashboard-fitesite.png"
-import movieBrowser from "./assets/movie_tmdb.png"
-
+import shopping from "./assets/recent_shopping.png"
 
 export const projects = [
     {
@@ -44,6 +43,26 @@ export const projects = [
     },
     {
         id: "3",
+        image: shopping,
+        title: "E-commerce Store",
+        description: "An ecommerce store that fetches products from an API and allows you to add them to your cart. The Cart is built with a react hook - useLocalStorageState that stores the user's selected items into the local storage of their browser for future purchase.",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "SASS (SCSS)" },
+            { id: "3", name: "TypeScript" },
+            { id: "4", name: "React.js" },
+            { id: "5", name: "API Integration" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/shopping_cart",
+                live_link: "https://shopping-cart-dun-three.vercel.app/"
+            },
+        ]
+    },
+    {
+        id: "4",
         image: fichat,
         title: "FiChat App",
         description: "Fichat is a chat app built during one of my internship programs at Fichub Internship. It was built by a team of both frontend and backend devs. I led the frontend team of three (3) to create visually appealing user interfaces, while working closely with the backend team to implement and consume the api endpoints. Please note that this project is still under development and the link to the github repo may not work because it's an organisation(private) repository.",
@@ -63,24 +82,4 @@ export const projects = [
             },
         ]
     },
-    {
-        id: "4",
-        image: movieBrowser,
-        title: "Movie Browser",
-        description: "A movie browser app that fetches top 10 most rated movies from the TMDB Movie API. This project demonstrates my knowledge in working with external APIs to add amazing functionalities to an application.",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwindcss" },
-            { id: "3", name: "JavaScript" },
-            { id: "4", name: "React.js" },
-            { id: "5", name: "TMDB Movie API" },
-        ],
-        links: [
-            {
-                id: "1",
-                repo_link: "https://github.com/JeremiahChinwe/hng_stage_two",
-                live_link: "https://hng-stage-two-virid.vercel.app/"
-            },
-        ]
-    }
 ]
