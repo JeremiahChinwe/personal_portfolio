@@ -1,6 +1,8 @@
 import blockWallet from "./assets/block_wallet_updated.png"
 import getlinked from "./assets/getlinked_desktop.png"
 import shopping from "./assets/recent_shopping.png"
+import bonsai from "./assets/bonsai.png"
+import anime_screenshot from "./assets/anime_screenshot.png"
 import techTime from "./assets/screenshot_desktop.png"
 import fichat from "./assets/updated-dashboard-fitesite.png"
 
@@ -24,27 +26,27 @@ export const projects = [
             }
         ]
     },
+
     {
         id: "2",
-        image: getlinked,
-        title: "Gelinked Tech Hackathon",
-        description: "The official gelinked landing page having two other pages - the contact & registration page built with firebase (firestore).",
+        image: bonsai,
+        title: "Bonsai Clone",
+        description: "Built a Bonsai Clone with Bootstrap 5 having a total of 10 pages (home, pricing, small business, agencies, freelancers, contracts, collaboration, payments, coaching, and consulting page respectively).",
         stacks: [
             { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwindcss" },
-            { id: "3", name: "React.js" },
-            { id: "4", name: "Material UI" },
-            { id: "5", name: "Firebase" },
-            { id: "6", name: "Framer Motion" },
+            { id: "2", name: "Bootstrap 5" },
+            { id: "3", name: "SASS (SCSS)" },
+            { id: "4", name: "JavaScript" },
         ],
         links: [
             {
                 id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/getlinked",
-                live_link: "https://getlinked-mu.vercel.app/"
+                repo_link: "https://github.com/yesjeremiahchinwe/bonsai",
+                live_link: "https://bonsai-cloned.vercel.app/"
             },
         ]
     },
+
     {
         id: "3",
         image: shopping,
@@ -65,8 +67,53 @@ export const projects = [
             },
         ]
     },
+
     {
         id: "4",
+        image: getlinked,
+        title: "Gelinked Tech Hackathon",
+        description: "The official gelinked landing page having two other pages - the contact & registration page built with firebase (firestore).",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Tailwindcss" },
+            { id: "3", name: "React.js" },
+            { id: "4", name: "Material UI" },
+            { id: "5", name: "Firebase" },
+            { id: "6", name: "Framer Motion" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/getlinked",
+                live_link: "https://getlinked-mu.vercel.app/"
+            },
+        ]
+    },
+
+    {
+        id: "5",
+        image: anime_screenshot,
+        title: "Anime Store",
+        description: "Exploring the power of Server Actions in Next.js 14+ with infinite scroll animation (on-scroll pagination).",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Tailwindcss" },
+            { id: "3", name: "Next.js 14" },
+            { id: "4", name: "TypeScript" },
+            { id: "5", name: "Framer Motion" },
+            { id: "6", name: "API Integration" },
+            { id: "7", name: "react-intersection-observer" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/anime_store",
+                live_link: "https://anime-store-red.vercel.app/"
+            },
+        ]
+    },
+    {
+        id: "6",
         image: techTime,
         title: "TechTime Landing Page",
         description: "This is the landing page of the TechTime website where you can purchase all digital courses for all kinds of digital skills. It harnesses the power of react in creating reuseable and maintable functional components for scalability.",
@@ -85,7 +132,7 @@ export const projects = [
         ]
     },
     {
-        id: "5",
+        id: "7",
         image: fichat,
         title: "FiChat App",
         description: "Fichat is an on-going chat app project. I volunteered to lead the frontend team of three (3) while working closely with the backend team to implement and consume the API endpoints. Please note that this project is still under development and currently, it's only the onboading page and the chat dashboard which you're seeing now is working. (I built the dashboard myself). Also note that the link to the github repo may not work because it's a private repository.",
@@ -104,5 +151,58 @@ export const projects = [
                 live_link: "https://fichat.vercel.app/"
             },
         ]
+    },
+]
+
+
+
+export const skills = [
+    {
+        id: "1",
+        skill: "HTML"
+    },
+    {
+        id: "2",
+        skill: "CSS"
+    },
+    {
+        id: "3",
+        skill: "Tailwindcss"
+    },
+    {
+        id: "4",
+        skill: "SASS (SCSS)"
+    },
+    {
+        id: "5",
+        skill: "Bootstrap 5"
+    },
+    {
+        id: "6",
+        skill: "JavaScript"
+    },
+    {
+        id: "7",
+        skill: "React.js"
+    },
+    {
+        id: "8",
+        skill: "Next.js"
+    },
+    {
+        id: "9",
+        skill: "TypeScript"
+    },
+    {
+        id: "10",
+        skill: "Redux Toolkit"
+    },
+    {
+        id: "11",
+        skill: "API Integration"
+    },
+    {
+        id: "12",
+        skill: "Firebase"
     },
 ]

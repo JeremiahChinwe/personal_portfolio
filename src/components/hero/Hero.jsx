@@ -7,8 +7,9 @@ export default function Hero() {
             <p className="font-[400] text-center my-4 block sm:w-[80%] lg:w-[50%]">Passionate about excellence and mastery in my field of endeavour with strong attention to details.</p>
 
             <div className="flex gap-4 sm:gap-8 items-center my-4">
-                <Link to="projects" smooth={true} duration={500} className="block w-fit border-[1px] border-[#333] rounded-lg py-1 px-8 font-[600] hover:bg-[#222222] hover:text-[#ffffff] cursor-pointer">Projects</Link>
-                <Link to="contact" smooth={true} duration={500} className="block w-fit border-[1px] border-[#333] rounded-lg py-1 px-8 font-[600] bg-[#222222] text-[#ffffff] hover:bg-transparent hover:text-[#222222] transition-all duration-300 cursor-pointer">Contact</Link>
+                <Link to="projects" smooth={true} duration={500} className="block w-fit border-[1px] border-[#333] rounded-lg py-1 px-8 font-[600] hover:bg-[#222222] hover:text-[#ffffff] transition-all duration-500 cursor-pointer">Projects</Link>
+
+                <Link to="contact" smooth={true} duration={500} className="block w-fit border-[1px] border-[#333] rounded-lg py-1 px-8 font-[600] bg-[#222222] text-[#ffffff] hover:bg-transparent hover:text-[#222222] transition-all duration-500 cursor-pointer">Contact</Link>
             </div>
         </section>
     )
