@@ -135,7 +135,7 @@ export const projects = [
         id: "7",
         image: fichat,
         title: "FiChat App",
-        description: "Fichat is an on-going chat app project. I volunteered to lead the frontend team of three (3) while working closely with the backend team to implement and consume the API endpoints. Please note that this project is still under development and currently, it's only the onboading page and the chat dashboard which you're seeing now is working. (I built the dashboard myself). Also note that the link to the github repo may not work because it's a private repository.",
+        description: "I volunteered to lead the frontend team towards the development of a chat app. Was asked to build the dashboard you are seeing while working closely with the backend team to consume and implement the necessary API end points.",
         stacks: [
             { id: "1", name: "HTML" },
             { id: "2", name: "Tailwindcss" },

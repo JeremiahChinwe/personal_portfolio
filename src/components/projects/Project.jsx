@@ -21,7 +21,7 @@ export default function Projects() {
                     </div>
                     <div>
                         {project.links.map(link => (
-                            <div key={link.id} className="flex gap-x-4 gap-y-2 flex-wrap my-4 text-[1.5rem] lg:text-[1.75rem]">
+                            <div key={link.id} className={`${project.title.includes("FiChat") ? "hidden" : "flex"} gap-x-4 gap-y-2 flex-wrap my-4 text-[1.5rem] lg:text-[1.75rem]`}>
                                 <a href={link.repo_link} target="_blank" rel="noreferrer" className="cursor-pointer">
                                 <i className="fa-brands fa-github"></i>
                                 </a>
