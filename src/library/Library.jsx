@@ -1,12 +1,12 @@
-import blockWallet from "./assets/block_wallet_updated.png"
-import getlinked from "./assets/getlinked_desktop.png"
-import shopping from "./assets/recent_shopping.png"
-import bonsai from "./assets/bonsai.png"
-import anime_screenshot from "./assets/anime_screenshot.png"
-import techTime from "./assets/screenshot_desktop.png"
-import fichat from "./assets/updated-dashboard-fitesite.png"
-import airbnb from "./assets/airbnb.png"
-import gokubit from "./assets/gokubit.png"
+import blockWallet from "./assets/block_wallet_updated-min.png"
+import getlinked from "./assets/getlinked_desktop-min.png"
+import shopping from "./assets/recent_shopping-min.png"
+import bonsai from "./assets/bonsai-min.png"
+import anime_screenshot from "./assets/anime_screenshot-min.png"
+import techTime from "./assets/screenshot_desktop-min.png"
+import fichat from "./assets/updated-dashboard-fitesite-min.png"
+import airbnb from "./assets/airbnb-min.png"
+import gokubit from "./assets/gokubit-min.png"
 
 
 export const projects = [
