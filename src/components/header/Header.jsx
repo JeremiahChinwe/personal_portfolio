@@ -63,9 +63,9 @@ const Header = () => {
                         <li className="py-4 hover:opacity-80 w-fit cursor-pointer">
                         <Link to="projects" smooth={true} duration={500}>Projects</Link>
                         </li>
-                        <li className="py-4 cursor-pointer">
+                        {/* <li className="py-4 cursor-pointer">
                             <Link to="contact" smooth={true} duration={500} className="font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-2 border-transparent outline-none hover:bg-transparent transition-all duration-500 hover:text-black hover:border-black ">Contact</Link>
-                        </li>
+                        </li> */}
                     </ul>
 
                     {/* -------- Darken background when Menu is Open-------- */}

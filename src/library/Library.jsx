@@ -5,6 +5,8 @@ import bonsai from "./assets/bonsai.png"
 import anime_screenshot from "./assets/anime_screenshot.png"
 import techTime from "./assets/screenshot_desktop.png"
 import fichat from "./assets/updated-dashboard-fitesite.png"
+import airbnb from "./assets/airbnb.png"
+import gokubit from "./assets/gokubit.png"
 
 
 export const projects = [
@@ -46,9 +48,50 @@ export const projects = [
             },
         ]
     },
-
     {
         id: "3",
+        image: airbnb,
+        title: "Airbnb Clone",
+        description: "This project demonstrates my JS skills with bootstrap 5. Implemented one of the major parts of the booking an accomodation procsess on Airbnb like choosing data, number of guest, etc. You can also view the host.",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Bootstrap 5" },
+            { id: "3", name: "SASS (SCSS)" },
+            { id: "4", name: "JavaScript" },
+            { id: "4", name: "PHP" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/airbnb",
+                live_link: "https://airbnb-tau-ten.vercel.app/"
+            },
+        ]
+    },
+    {
+        id: "4",
+        image: gokubit,
+        title: "Admin Dashboard for a Crypto Platform",
+        description: "Recently worked as a front-end developer in building an admin dashboard for a crypto trading platform. I worked closely with the backend team and integrated all API endpoints which resulted to a fully functional app. Implemented a role-base access control to all admin members which added extra layer of security to the platform. Implemented a custom, reusable table using shadcn data-table for rendering data fetched from the backend with search functionality and cell actions. This was a client project and I don't have access to the live site. It's also on a private (organization) repo on github so you can't access the repo.",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Tailwind CSS" },
+            { id: "3", name: "SASS (SCSS)" },
+            { id: "4", name: "JavaScript" },
+            { id: "4", name: "Next.js 14" },
+            { id: "4", name: "Shadcn UI" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/bonsai",
+                live_link: "https://bonsai-cloned.vercel.app/"
+            },
+        ]
+    },
+
+    {
+        id: "5",
         image: shopping,
         title: "E-commerce Store",
         description: "An ecommerce store that fetches products from an API and allows you to add them to your cart. The Cart is built with a react hook - useLocalStorageState that stores the user's selected items into the local storage of their browser for future purchase.",
@@ -69,7 +112,7 @@ export const projects = [
     },
 
     {
-        id: "4",
+        id: "6",
         image: getlinked,
         title: "Gelinked Tech Hackathon",
         description: "The official gelinked landing page having two other pages - the contact & registration page built with firebase (firestore).",
@@ -91,7 +134,7 @@ export const projects = [
     },
 
     {
-        id: "5",
+        id: "7",
         image: anime_screenshot,
         title: "Anime Store",
         description: "Exploring the power of Server Actions in Next.js 14+ with infinite scroll animation (on-scroll pagination).",
@@ -113,7 +156,7 @@ export const projects = [
         ]
     },
     {
-        id: "6",
+        id: "8",
         image: techTime,
         title: "TechTime Landing Page",
         description: "This is the landing page of the TechTime website where you can purchase all digital courses for all kinds of digital skills. It harnesses the power of react in creating reuseable and maintable functional components for scalability.",
@@ -132,7 +175,7 @@ export const projects = [
         ]
     },
     {
-        id: "7",
+        id: "9",
         image: fichat,
         title: "FiChat App",
         description: "I volunteered to lead the frontend team towards the development of a chat app. Was asked to build the dashboard you are seeing while working closely with the backend team to consume and implement the necessary API end points.",
@@ -203,6 +246,6 @@ export const skills = [
     },
     {
         id: "12",
-        skill: "Firebase"
+        skill: "PHP"
     },
 ]

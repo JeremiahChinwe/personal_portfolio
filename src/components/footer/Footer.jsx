@@ -30,7 +30,8 @@ export default function Footer() {
         <footer className="bg-black mt-8 lg:mt-20 px-[1.25rem] sm:px-8 lg:px-0 py-12 text-white/90">
             <article className="flex items-center justify-between flex-col sm:flex-row gap-4 lg:w-[80%] mx-auto">
                 <small>All Rights Reserved &copy; {date}</small>
-                <ul className="m-0 flex items-center gap-8 lg:gap-12 justify-between lg:text-[1.75rem]">
+                <small>Developed by Jeremiah Chinwe</small>
+                {/* <ul className="m-0 flex items-center gap-8 lg:gap-12 justify-between lg:text-[1.75rem]">
                     {socialLinks.map(link => (
                         <li key={link.id} className="text-white/70 hover:text-white transition-colors duration-500">
                             <a href={link.link} rel="noreferrer" target="_blank">
@@ -38,7 +39,7 @@ export default function Footer() {
                             </a>
                         </li>
                     ))}
-                </ul>
+                </ul> */}
             </article>
         </footer>
     )
