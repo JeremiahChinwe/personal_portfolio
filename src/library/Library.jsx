@@ -8,9 +8,50 @@ import techTime from "./assets/screenshot_desktop-min.png"
 import fichat from "./assets/updated-dashboard-fitesite-min.png"
 import airbnb from "./assets/airbnb-min.png"
 import gokubit from "./assets/gokubit-min.png"
+import hooBank from "./assets/hoobank_landing_page-min.png"
 
 
 export const projects = [
+    {
+        id: "11",
+        image: hooBank,
+        title: "HooBank Landing Page",
+        description: "A pixel-perfect responsive landing page for a modern bank - with an intuitive, engaging user-facing interface - having a smooth animation gives your users a cool feel while scrolling throught the page.",
+        stacks: [
+            { id: "1", name: "React.js" },
+            { id: "2", name: "Tailwind CSS" },
+            { id: "3", name: "JavaScript" },
+            { id: "4", name: "Framer Motion" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
+                live_link: "https://modern-bank-landing-page-coral.vercel.app/"
+            }
+        ]
+    },
+    {
+        id: "7",
+        image: getlinked,
+        title: "Gelinked Tech Hackathon",
+        description: "The official gelinked landing page having two other pages - the contact & registration page built with firebase (firestore).",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Tailwindcss" },
+            { id: "3", name: "React.js" },
+            { id: "4", name: "Material UI" },
+            { id: "5", name: "Firebase" },
+            { id: "6", name: "Framer Motion" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/getlinked",
+                live_link: "https://getlinked-mu.vercel.app/"
+            },
+        ]
+    },
     {
         id: "1",
         image: twitterClone,
@@ -47,7 +88,10 @@ export const projects = [
             { id: "3", name: "SASS (SCSS)" },
             { id: "4", name: "JavaScript" },
             { id: "4", name: "Next.js 14" },
+            { id: "4", name: "REST API Integration (Back-End Services)" },
             { id: "4", name: "Shadcn UI" },
+            { id: "4", name: "React Query" },
+            { id: "4", name: "Zuztand (State management)" },
         ],
         links: [
             {
@@ -95,7 +139,6 @@ export const projects = [
             }
         ]
     },
-
     {
         id: "6",
         image: shopping,
@@ -137,29 +180,6 @@ export const projects = [
             },
         ]
     },
-
-    {
-        id: "7",
-        image: getlinked,
-        title: "Gelinked Tech Hackathon",
-        description: "The official gelinked landing page having two other pages - the contact & registration page built with firebase (firestore).",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwindcss" },
-            { id: "3", name: "React.js" },
-            { id: "4", name: "Material UI" },
-            { id: "5", name: "Firebase" },
-            { id: "6", name: "Framer Motion" },
-        ],
-        links: [
-            {
-                id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/getlinked",
-                live_link: "https://getlinked-mu.vercel.app/"
-            },
-        ]
-    },
-
     {
         id: "8",
         image: anime_screenshot,
