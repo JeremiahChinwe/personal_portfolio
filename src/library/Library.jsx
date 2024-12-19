@@ -9,11 +9,60 @@ import fichat from "./assets/updated-dashboard-fitesite-min.png"
 import airbnb from "./assets/airbnb-min.png"
 import gokubit from "./assets/gokubit-min.png"
 import hooBank from "./assets/hoobank_landing_page-min.png"
+import notesApp from "./assets/screenshot_dark-min.png"
+// import xoraApp from "./assets/hoobank_landing_page-min.png"
 
 
 export const projects = [
     {
         id: "11",
+        image: notesApp,
+        title: "Note Taking App",
+        description: "My first full-stack project - An accessible Note Taking App with dark mode. This project demonstrates my understanding of the importance of creating a balance between aethestics and functionality. You can perform all actions on the app using your keyboard.",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "2", name: "Tailwind CSS" },
+            { id: "3", name: "React.js" },
+            { id: "4", name: "React Router Library" },
+            { id: "5", name: "Typescript" },
+            { id: "6", name: "Shadcn" },
+            { id: "7", name: "REST API" },
+            { id: "8", name: "Tiny MCV Text Editor" },
+            { id: "9", name: "Redux (RTK Query)" },
+            { id: "10", name: "Node.js" },
+            { id: "11", name: "Express.js" },
+            { id: "12", name: "MongoDB" },
+            { id: "13", name: "MVC Pattern" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/note_taking_app_frontend",
+                live_link: "https://note-taking-app-frontend-pearl.vercel.app/"
+            }
+        ]
+    },
+    // {
+    //     id: "12",
+    //     image: xoraApp,
+    //     title: "Landing Page for Sass Startup Company",
+    //     description: "A pixel-perfect responsive landing page for a Sass startup company with an engaging user-facing interface - having a smooth animation provides good user experience.",
+    //     stacks: [
+    //         { id: "1", name: "HTML" },
+    //         { id: "1", name: "React.js" },
+    //         { id: "2", name: "Tailwind CSS" },
+    //         { id: "3", name: "JavaScript" },
+    //     ],
+    //     links: [
+    //         {
+    //             id: "1", 
+    //             repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
+    //             live_link: "https://modern-bank-landing-page-coral.vercel.app/"
+    //         }
+    //     ]
+    // },
+    {
+        id: "13",
         image: hooBank,
         title: "HooBank Landing Page",
         description: "A pixel-perfect responsive landing page for a modern bank - with an intuitive, engaging user-facing interface - having a smooth animation gives your users a cool feel while scrolling throught the page.",
@@ -285,14 +334,30 @@ export const skills = [
     },
     {
         id: "10",
-        skill: "Redux Toolkit"
+        skill: "Redux (RTK Query)"
     },
     {
         id: "11",
-        skill: "API Integration"
+        skill: "REST API"
     },
     {
         id: "12",
+        skill: "Node.js"
+    },
+    {
+        id: "13",
+        skill: "Express.js"
+    },
+    {
+        id: "14",
+        skill: "MongoDB"
+    },
+    {
+        id: "15",
+        skill: "MySQL"
+    },
+    {
+        id: "16",
         skill: "PHP"
     },
 ]
