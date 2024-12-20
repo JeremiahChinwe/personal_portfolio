@@ -38,7 +38,8 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/note_taking_app_frontend",
-                live_link: "https://note-taking-app-frontend-pearl.vercel.app/"
+                live_link: "https://note-taking-app-frontend-pearl.vercel.app/",
+                watch: "https://drive.google.com/file/d/1MMGJVpFFdQ9FF2Wb7XYUDcN3QM4zrQb0/view?usp=drive_link"
             }
         ]
     },
@@ -57,7 +58,8 @@ export const projects = [
     //         {
     //             id: "1", 
     //             repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
-    //             live_link: "https://modern-bank-landing-page-coral.vercel.app/"
+    //             live_link: "https://modern-bank-landing-page-coral.vercel.app/",
+    //                watch: ""
     //         }
     //     ]
     // },
@@ -76,8 +78,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
-                live_link: "https://modern-bank-landing-page-coral.vercel.app/"
-            }
+                live_link: "https://modern-bank-landing-page-coral.vercel.app/",
+
+watch: ""            }
         ]
     },
     {
@@ -97,8 +100,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/getlinked",
-                live_link: "https://getlinked-mu.vercel.app/"
-            },
+                live_link: "https://getlinked-mu.vercel.app/",
+
+watch: ""            },
         ]
     },
     {
@@ -122,8 +126,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/twitter_clone",
-                live_link: "https://twitter-clone-fajm.onrender.com/"
-            }
+                live_link: "https://twitter-clone-fajm.onrender.com/",
+
+watch: ""            }
         ]
     },
      {
@@ -146,8 +151,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/bonsai",
-                live_link: "https://bonsai-cloned.vercel.app/"
-            },
+                live_link: "https://bonsai-cloned.vercel.app/",
+
+watch: ""            },
         ]
     },
      {
@@ -166,8 +172,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/airbnb",
-                live_link: "https://airbnb-tau-ten.vercel.app/"
-            },
+                live_link: "https://airbnb-tau-ten.vercel.app/",
+
+watch: ""            },
         ]
     },
     {
@@ -184,8 +191,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/blockwallet",
-                live_link: "https://blockwallet-puce.vercel.app/"
-            }
+                live_link: "https://blockwallet-puce.vercel.app/",
+
+watch: ""            }
         ]
     },
     {
@@ -204,8 +212,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/shopping_cart",
-                live_link: "https://shopping-cart-dun-three.vercel.app/"
-            },
+                live_link: "https://shopping-cart-dun-three.vercel.app/",
+
+watch: ""            },
         ]
     },
     
@@ -225,8 +234,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/bonsai",
-                live_link: "https://bonsai-cloned.vercel.app/"
-            },
+                live_link: "https://bonsai-cloned.vercel.app/",
+
+watch: ""            },
         ]
     },
     {
@@ -247,8 +257,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/anime_store",
-                live_link: "https://anime-store-red.vercel.app/"
-            },
+                live_link: "https://anime-store-red.vercel.app/",
+
+watch: ""            },
         ]
     },
     {
@@ -266,8 +277,9 @@ export const projects = [
             {
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/techtime_landing_page",
-                live_link: "https://techtime-landing-page-neon.vercel.app/"
-            }
+                live_link: "https://techtime-landing-page-neon.vercel.app/",
+
+watch: ""            }
         ]
     },
     {
@@ -287,8 +299,9 @@ export const projects = [
             {
                 id: "1",
                 repo_link: "https://github.com/Fichub-app/Fichat-site",
-                live_link: "https://fichat.vercel.app/"
-            },
+                live_link: "https://fichat.vercel.app/",
+
+watch: ""            },
         ]
     },
 ]

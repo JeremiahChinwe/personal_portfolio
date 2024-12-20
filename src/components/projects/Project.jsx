@@ -31,6 +31,13 @@ export default function Projects() {
                                 <span>Live site</span>
                                 <i className="fa-solid fa-link"></i>
                                 </a>
+
+                                {link?.watch && (
+                                    <a href={link.watch} target="_blank" rel="noreferrer" className="cursor-pointer flex items-center gap-2 font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-2 border-transparent outline-none hover:bg-transparent transition-all duration-500 hover:text-black hover:border-black">
+                                    <span>Watch a Live Demo</span>
+                                    <i className="fa-solid fa-link"></i>
+                                    </a>
+                                )}
                             </div>
                         ))}
                     </div>
