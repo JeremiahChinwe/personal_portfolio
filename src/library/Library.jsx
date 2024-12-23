@@ -10,7 +10,7 @@ import airbnb from "./assets/airbnb-min.png"
 import gokubit from "./assets/gokubit-min.png"
 import hooBank from "./assets/hoobank_landing_page-min.png"
 import notesApp from "./assets/screenshot_dark-min.png"
-// import xoraApp from "./assets/hoobank_landing_page-min.png"
+import xoraApp from "./assets/xora-min.jpg"
 
 
 export const projects = [
@@ -43,26 +43,26 @@ export const projects = [
             }
         ]
     },
-    // {
-    //     id: "12",
-    //     image: xoraApp,
-    //     title: "Landing Page for Sass Startup Company",
-    //     description: "A pixel-perfect responsive landing page for a Sass startup company with an engaging user-facing interface - having a smooth animation provides good user experience.",
-    //     stacks: [
-    //         { id: "1", name: "HTML" },
-    //         { id: "1", name: "React.js" },
-    //         { id: "2", name: "Tailwind CSS" },
-    //         { id: "3", name: "JavaScript" },
-    //     ],
-    //     links: [
-    //         {
-    //             id: "1", 
-    //             repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
-    //             live_link: "https://modern-bank-landing-page-coral.vercel.app/",
-    //                watch: ""
-    //         }
-    //     ]
-    // },
+    {
+        id: "12",
+        image: xoraApp,
+        title: "Landing Page for Sass Startup Company",
+        description: "A pixel-perfect responsive landing page for a Sass startup company with an engaging user-facing interface - having a smooth animation provides good user experience.",
+        stacks: [
+            { id: "1", name: "HTML" },
+            { id: "1", name: "React.js" },
+            { id: "2", name: "Tailwind CSS" },
+            { id: "3", name: "JavaScript" },
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
+                live_link: "https://modern-bank-landing-page-coral.vercel.app/",
+                   watch: ""
+            }
+        ]
+    },
     {
         id: "13",
         image: hooBank,
