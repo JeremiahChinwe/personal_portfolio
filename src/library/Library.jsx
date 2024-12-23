@@ -4,7 +4,6 @@ import getlinked from "./assets/getlinked_desktop-min.png"
 import shopping from "./assets/recent_shopping-min.png"
 import bonsai from "./assets/bonsai-min.png"
 import anime_screenshot from "./assets/anime_screenshot-min.png"
-import techTime from "./assets/screenshot_desktop-min.png"
 import fichat from "./assets/updated-dashboard-fitesite-min.png"
 import airbnb from "./assets/airbnb-min.png"
 import gokubit from "./assets/gokubit-min.png"
@@ -57,8 +56,8 @@ export const projects = [
         links: [
             {
                 id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/modern-bank-landing-page",
-                live_link: "https://modern-bank-landing-page-coral.vercel.app/",
+                repo_link: "https://github.com/yesjeremiahchinwe/sass_landing_page",
+                live_link: "https://sass-landing-page-rosy.vercel.app/",
                    watch: ""
             }
         ]
@@ -260,26 +259,6 @@ watch: ""            },
                 live_link: "https://anime-store-red.vercel.app/",
 
 watch: ""            },
-        ]
-    },
-    {
-        id: "9",
-        image: techTime,
-        title: "TechTime Landing Page",
-        description: "This is the landing page of the TechTime website where you can purchase all digital courses for all kinds of digital skills. It harnesses the power of react in creating reuseable and maintable functional components for scalability.",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "CSS" },
-            { id: "3", name: "JavaScript" },
-            { id: "4", name: "React.js" }
-        ],
-        links: [
-            {
-                id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/techtime_landing_page",
-                live_link: "https://techtime-landing-page-neon.vercel.app/",
-
-watch: ""            }
         ]
     },
     {

@@ -46,9 +46,9 @@ const Header = () => {
                             <li className="py-4 hover:opacity-80 w-fit cursor-pointer">
                             <Link to="projects" smooth={true} duration={500} onClick={() => setOpen(!open)}>Projects</Link>
                             </li>
-                            <li className="py-4 cursor-pointer">
+                            {/* <li className="py-4 cursor-pointer">
                                 <Link to="contact" smooth={true} duration={500} className="font-[700] text-[16px] bg-[#222222] text-[#ffffff] py-2 px-6 rounded-lg border-none outline-none hover:scale-[1.05] transition-all duration-500 " onClick={() => setOpen(!open)}>Contact</Link>
-                            </li>
+                            </li> */}
                         </div>
                     </ul>
 
