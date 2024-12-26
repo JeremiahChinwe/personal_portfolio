@@ -10,9 +10,31 @@ import gokubit from "./assets/gokubit-min.png"
 import hooBank from "./assets/hoobank_landing_page-min.png"
 import notesApp from "./assets/screenshot_dark-min.png"
 import xoraApp from "./assets/xora-min.jpg"
+import personalFinanceApp from "./assets/personal_finance-min.jpg"
 
 
 export const projects = [
+    {
+        id: "16",
+        image: personalFinanceApp,
+        title: "Personal Finance App",
+        description: "A personal finance app that helps you track your expenses and income. This project demonstrates my understanding of the importance of creating a balance between aethestics and functionality. You can perform all actions on the app using your keyboard.",
+        stacks: [
+            { id: "1", name: "Next.js 15" },
+            { id: "2", name: "Appwrite" },
+            { id: "3", name: "Typescript" },
+            { id: "4", name: "Tailwind CSS" },
+            { id: "5", name: "Shadcn UI" }
+        ],
+        links: [
+            {
+                id: "1", 
+                repo_link: "https://github.com/yesjeremiahchinwe/personal_finance_app",
+                live_link: "https://personal-finance-app-drab.vercel.app/transactions",
+                   watch: ""
+            }
+        ]
+    },
     {
         id: "11",
         image: notesApp,
