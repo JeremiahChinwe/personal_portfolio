@@ -4,9 +4,7 @@ import getlinked from "./assets/getlinked_desktop-min.png"
 import shopping from "./assets/recent_shopping-min.png"
 import bonsai from "./assets/bonsai-min.png"
 import anime_screenshot from "./assets/anime_screenshot-min.png"
-import fichat from "./assets/updated-dashboard-fitesite-min.png"
 import airbnb from "./assets/airbnb-min.png"
-import gokubit from "./assets/gokubit-min.png"
 import hooBank from "./assets/hoobank_landing_page-min.png"
 import notesApp from "./assets/screenshot_dark-min.png"
 import xoraApp from "./assets/xora-min.jpg"
@@ -153,31 +151,6 @@ watch: ""            }
         ]
     },
      {
-        id: "5",
-        image: gokubit,
-        title: "Admin Dashboard for a Crypto Platform",
-        description: "Recently worked as a front-end developer in building an admin dashboard for a crypto trading platform. I worked closely with the backend team and integrated all API endpoints which resulted to a fully functional app. Implemented a role-base access control to all admin members which added extra layer of security to the platform. Implemented a custom, reusable table using shadcn data-table for rendering data fetched from the backend with search functionality and cell actions. This was a client project and I don't have access to the live site. It's also on a private (organization) repo on github so you can't access the repo.",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwind CSS" },
-            { id: "3", name: "SASS (SCSS)" },
-            { id: "4", name: "JavaScript" },
-            { id: "4", name: "Next.js 14" },
-            { id: "4", name: "REST API Integration (Back-End Services)" },
-            { id: "4", name: "Shadcn UI" },
-            { id: "4", name: "React Query" },
-            { id: "4", name: "Zuztand (State management)" },
-        ],
-        links: [
-            {
-                id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/bonsai",
-                live_link: "https://bonsai-cloned.vercel.app/",
-
-watch: ""            },
-        ]
-    },
-     {
         id: "4",
         image: airbnb,
         title: "Airbnb Clone",
@@ -282,29 +255,7 @@ watch: ""            },
 
 watch: ""            },
         ]
-    },
-    {
-        id: "10",
-        image: fichat,
-        title: "FiChat App",
-        description: "I volunteered to lead the frontend team towards the development of a chat app. Was asked to build the dashboard you are seeing while working closely with the backend team to consume and implement the necessary API end points.",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwindcss" },
-            { id: "3", name: "Flowbite" },
-            { id: "4", name: "JavaScript" },
-            { id: "5", name: "React.js" },
-            { id: "6", name: "TypeScript" },
-        ],
-        links: [
-            {
-                id: "1",
-                repo_link: "https://github.com/Fichub-app/Fichat-site",
-                live_link: "https://fichat.vercel.app/",
-
-watch: ""            },
-        ]
-    },
+    }
 ]
 
 
