@@ -18,7 +18,7 @@ export const projects = [
         id: "16",
         image: personalFinanceApp,
         title: "Personal Finance App",
-        description: "A personal finance app that helps you track your expenses and income. This project demonstrates my understanding of the importance of creating a balance between aethestics and functionality. You can perform all actions on the app using your keyboard.",
+        description: "Note: This project is under developemnt. A personal finance app that helps you track your expenses and income. This project demonstrates my understanding of the importance of creating a balance between aethestics and functionality. You can perform all actions on the app using your keyboard.",
         stacks: [
             { id: "1", name: "Next.js 15" },
             { id: "2", name: "Appwrite" },
