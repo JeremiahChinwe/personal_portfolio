@@ -29,7 +29,7 @@ export const projects = [
                 id: "1", 
                 repo_link: "https://github.com/yesjeremiahchinwe/personal_finance_app",
                 live_link: "https://personal-finance-app-drab.vercel.app",
-                   watch: ""
+                   watch: "https://drive.google.com/file/d/1U8xa2j5fXkYYMpXuogj_lkn77bAQ67P6/view?usp=drive_link"
             }
         ]
     },
