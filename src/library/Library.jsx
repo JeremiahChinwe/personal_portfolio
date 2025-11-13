@@ -34,35 +34,6 @@ export const projects = [
         ]
     },
     {
-        id: "11",
-        image: notesApp,
-        title: "Note Taking App",
-        description: "My first full-stack project - An accessible Note Taking App with dark mode. This project demonstrates my understanding of the importance of creating a balance between aethestics and functionality. You can perform all actions on the app using your keyboard.",
-        stacks: [
-            { id: "1", name: "HTML" },
-            { id: "2", name: "Tailwind CSS" },
-            { id: "3", name: "React.js" },
-            { id: "4", name: "React Router Library" },
-            { id: "5", name: "Typescript" },
-            { id: "6", name: "Shadcn" },
-            { id: "7", name: "REST API" },
-            { id: "8", name: "Tiny MCV Text Editor" },
-            { id: "9", name: "Redux (RTK Query)" },
-            { id: "10", name: "Node.js" },
-            { id: "11", name: "Express.js" },
-            { id: "12", name: "MongoDB" },
-            { id: "13", name: "MVC Pattern" },
-        ],
-        links: [
-            {
-                id: "1", 
-                repo_link: "https://github.com/yesjeremiahchinwe/note_taking_app_frontend",
-                live_link: "https://note-taking-app-frontend-pearl.vercel.app/",
-                watch: "https://drive.google.com/file/d/1MMGJVpFFdQ9FF2Wb7XYUDcN3QM4zrQb0/view?usp=drive_link"
-            }
-        ]
-    },
-    {
         id: "12",
         image: xoraApp,
         title: "Landing Page for Sass Startup Company",
